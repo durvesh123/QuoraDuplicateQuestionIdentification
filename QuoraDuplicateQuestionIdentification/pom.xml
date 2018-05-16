@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>spark-ml-second-app</groupId>
+    <artifactId>spark-java-ml</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core_2.11 -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib_2.11 -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_2.11</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.databricks</groupId>
+            <artifactId>spark-xml_2.11</artifactId>
+            <version>0.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-core</artifactId>
+            <version>1.0.0-alpha</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-nlp</artifactId>
+            <version>1.0.0-alpha</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>dl4j-spark_2.11</artifactId>
+            <version>1.0.0-alpha_spark_2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-nn</artifactId>
+            <version>1.0.0-alpha</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>dl4j-spark-nlp_2.11</artifactId>
+            <version>1.0.0-alpha_spark_2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.kohsuke.args4j</groupId>
+            <artifactId>args4j-maven-plugin</artifactId>
+            <version>2.0.22</version>
+        </dependency>
+
+
+
+
+
+    </dependencies>
+
+</project>
+
